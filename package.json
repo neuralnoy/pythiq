@@ -1,0 +1,11 @@
+{
+  "name": "neuralnoy-monorepo",
+  "version": "1.0.0",
+  "description": "Simple monorepo for Rust Backend and React Frontend",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "cargo run --manifest-path backend/Cargo.toml",
+    "install:frontend": "npm install --prefix frontend"
+  }
+}
