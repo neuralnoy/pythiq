@@ -1,7 +1,7 @@
 # Neuralnoy Project
 
 A simple monorepo containing:
-- `backend/`: A Rust Cargo project
+- `backend/`: A Go module project
 - `frontend/`: A React TypeScript project powered by Vite
 
 ## How to run
@@ -16,7 +16,7 @@ A simple monorepo containing:
 2. **Backend**:
    ```bash
    cd backend
-   cargo run
+   go run main.go
    ```
 
 Or from the root directory:
